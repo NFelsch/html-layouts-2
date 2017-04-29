@@ -5,10 +5,8 @@
 
 }
 
-
-
 .boxTop {
-    width: calc(100vh/3.1);
+    width: calc(100vh/3 - 3em);
     height: 20vh;
     display: inline-block;  
     margin: 6px;
@@ -26,7 +24,7 @@
 
 #grayTopBox {
     background-color: #4A4A4A;
-    
+    position: relative;
 }
 
 #textBox {
@@ -38,8 +36,7 @@
 
 .middleTwoBoxes {
     display: inline-block;
-    margin: 3px;
-    
+    margin: 3px;    
 }
 
 #redMiddleBox {
@@ -52,7 +49,7 @@
 #blueMiddleBox {
     left: 30vh; 
     height: 50vh;
-    width: 80vh;
+    width: 100vh;
     background-color: #4A90E2;
     position: relative;
 }
@@ -60,6 +57,7 @@
 .bottomBoxes {
     display: inline-block;
     margin: 0;
+
 }
 
 #blueBottomBox {
