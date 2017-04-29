@@ -8,9 +8,10 @@
 
 
 .boxTop {
-    width: calc(100%/3.1);
+    width: calc(100vh/3.1);
     height: 20vh;
     display: inline-block;  
+    margin: 6px;
 }
 
 #redTopBox{
@@ -29,13 +30,16 @@
 }
 
 #textBox {
-    width: 100%;
+    width: 100vh;
     height: auto;
     padding: 2em;
+    margin: 3px;
 }
 
 .middleTwoBoxes {
     display: inline-block;
+    margin: 3px;
+    
 }
 
 #redMiddleBox {
@@ -55,6 +59,7 @@
 
 .bottomBoxes {
     display: inline-block;
+    margin: 0;
 }
 
 #blueBottomBox {
