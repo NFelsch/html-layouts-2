@@ -1,0 +1,81 @@
+
+
+
+* {
+
+}
+
+
+
+.boxTop {
+    width: calc(100%/3.1);
+    height: 20vh;
+    display: inline-block;  
+}
+
+#redTopBox{
+    background-color: #D0021B;
+    position: relative;
+}
+
+#blueTopBox {
+    background-color: #4A90E2;
+    position: relative;
+}
+
+#grayTopBox {
+    background-color: #4A4A4A;
+    
+}
+
+#textBox {
+    width: 100%;
+    height: auto;
+    padding: 2em;
+}
+
+.middleTwoBoxes {
+    display: inline-block;
+}
+
+#redMiddleBox {
+    height: 50vh;
+    width: 30vh;
+    background-color: #D0021B;
+    position: absolute;
+}
+
+#blueMiddleBox {
+    left: 30vh; 
+    height: 50vh;
+    width: 80vh;
+    background-color: #4A90E2;
+    position: relative;
+}
+
+.bottomBoxes {
+    display: inline-block;
+}
+
+#blueBottomBox {
+    background-color: #4A90E2;
+    width: 100vh;
+    height: 20vh;
+    position: relative;
+}
+
+#redBottomBox {
+    background-color: #D0021B;
+    width: 40vh;
+    height: 20vh;
+    position: relative;
+    left: 60vh;
+}
+
+#grayBottomBox {
+    background-color: #4A4A4A;
+    width: 30vh;
+    height: 20vh;
+    position: relative;
+    left: 5vh;
+}
